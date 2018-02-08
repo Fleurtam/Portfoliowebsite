@@ -1,0 +1,14 @@
+- name: My First Website
+  description: Simple HTML5 site I've built during the PrepCourse
+
+- name: FizzBuzz
+  description: My first Test driven ruby project
+
+- name: Cooper Challenge
+  description: My first Javascript project
+
+- name: BMI Challenge
+  description: Creating a BMIcalculator and accompanying website
+
+- name: ATM Challenge
+  description: Creating an ATM machine using Ruby
