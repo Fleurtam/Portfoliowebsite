@@ -8,6 +8,23 @@ activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
 
+
+
+activate :deploy do |deploy|
+    require 'extensions/build_cleaner'
+
+    configure :build do
+      activate :relative_assets
+      activate :build_cleaner
+    end
+  deploy.build_before = true
+  deploy.deploy_method = :git
+end
+
+
+
+
+
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 
