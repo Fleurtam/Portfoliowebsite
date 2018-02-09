@@ -3,3 +3,8 @@
   - data.projects.each do |project|
     %h6= project[:name]
     %p= project[:description]
+
+.cv
+  - data.cv.each do |cv|
+    %h6= cv[:name]
+    %p= cv[:description]
