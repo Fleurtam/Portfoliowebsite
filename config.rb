@@ -16,9 +16,10 @@ activate :deploy do |deploy|
     configure :build do
       activate :relative_assets
       activate :build_cleaner
-    end
+
   deploy.build_before = true
   deploy.deploy_method = :git
+end
 end
 
 
