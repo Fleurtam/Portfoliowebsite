@@ -6,6 +6,11 @@ describe 'Index Page', type: :feature do
     within '.projects' do
       expect(page).to have_content 'My First Website'
       expect(page).to have_content 'FizzBuzz'
+      expect(page).to have_content 'Curriculum Vitae'
+      expect(page).to have_content 'Professional experience'
+      expect(page).to have_content 'Education'
+      expect(page).to have_content 'Courses'
+    end
     end
   end
 
@@ -18,16 +23,3 @@ describe 'Index Page', type: :feature do
   #    expect(page).to have_content 'Built using the awesome Middleman framework'
   #  end
   #end
-
-  it 'displays cv' do
-    visit '/'
-
-    expect(page).to have_css '.cv'
-    within '.cv' do
-      expect(page).to have_content 'Curriculum Vitae'
-      expect(page).to have_content 'Professional experience'
-      expect(page).to have_content 'Education'
-      expect(page).to have_content 'Courses'
-    end
-  end
-end
