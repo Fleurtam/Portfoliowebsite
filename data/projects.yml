@@ -12,15 +12,3 @@
 
 - name: ATM Challenge
   description: Creating an ATM machine using Ruby
-
-- name: Writer
-  description: Writing children's stories and fairytales
-
-- name: Marketeer
-  description: Markting and projectmanagement for various magazines
-
-- name: Education
-  description: Business Economics at the university of Groningen
-
-- name: Current project
-  description: Learning to code at Craft Academy
