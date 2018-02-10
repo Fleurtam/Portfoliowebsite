@@ -13,14 +13,14 @@
 - name: ATM Challenge
   description: Creating an ATM machine using Ruby
 
-- name: Curriculum Vitae
-  description: xx
+- name: Writer
+  description: Writing children's stories and fairytales
 
-- name: Professional experience
-  description: cc
+- name: Marketeer
+  description: Markting and projectmanagement for various magazines
 
 - name: Education
-  description: cc
+  description: Business Economics at the university of Groningen
 
-- name: Courses
-  description: cc
+- name: Current project
+  description: Learning to code at Craft Academy

@@ -6,13 +6,15 @@ describe 'Index Page', type: :feature do
     within '.projects' do
       expect(page).to have_content 'My First Website'
       expect(page).to have_content 'FizzBuzz'
-      expect(page).to have_content 'Curriculum Vitae'
-      expect(page).to have_content 'Professional experience'
+      expect(page).to have_content 'Writer'
+      expect(page).to have_content 'Marketeer'
       expect(page).to have_content 'Education'
-      expect(page).to have_content 'Courses'
+      expect(page).to have_content 'Current project'
     end
     end
   end
+
+
 
   #  it 'renders footer partial' do
   #  visit '/'
