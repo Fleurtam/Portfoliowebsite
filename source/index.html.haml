@@ -1,8 +1,10 @@
-
 .projects
   - data.projects.each do |project|
-    %h6= project[:name]
+    %h4= project[:name]
     %p= project[:description]
+
+
+
 
 .cv
   - data.cv.each do |c|

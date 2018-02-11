@@ -1,9 +1,15 @@
 
+- name:
+  description:
+
+- name: HISTORY
+  description:
+
 - name: Writer
   description: Writing children's stories and fairytales
 
 - name: Marketeer
-  description: Marketing and projectmanagement for various magazines
+  description: Marketing and Projectmanagement for various magazines
 
 - name: Education
   description: Business Economics at the University of Groningen
@@ -11,8 +17,8 @@
 - name: Language Skills
   description: Dutch, English, French, Spanish, German, Swedish
 
-- name: Current project
-  description: Learning to code at Craft Academy
-
 - name: New Language Skills
   description: Ruby, Javascript, HTML, CSS
+
+- name: Current project
+  description: Learning to code at Craft Academy
